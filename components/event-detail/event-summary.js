@@ -1,7 +1,6 @@
 import classes from './event-summary.module.css';
 
-function EventSummary(props) {
-  const { title } = props;
+function EventSummary({ title }) {
 
   return (
     <section className={classes.summary}>
